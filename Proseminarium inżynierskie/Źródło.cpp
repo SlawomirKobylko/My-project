@@ -99,11 +99,6 @@ int main()
 	Feed pierwszyOkresZasuszenia(7, 4, 3.2, 0, 0, 0, 0, 0.4, 0, 0.1, 0, 4.5, 9);		//alert ze ta krowa sie juz nie doi
 	Feed drugoOkresZasuszenia(13, 3, 3, 0, 0, 0, 0.25, 4, 0.1, 0.1, 3, 0, 0);			//alert ze ta krowa niedlugo sie cieli
 
-	double a = pierwszyOkresLaktacji.ObliczDawkeTMR(grupa1);
-	double b = srodkowyOkresLaktacji.ObliczDawkeTMR(grupa2);
-	double c = poznyOkresLaktacji.ObliczDawkeTMR(grupa3);
-	double d = pierwszyOkresZasuszenia.ObliczDawkeTMR(grupa4);
-	double e = drugoOkresZasuszenia.ObliczDawkeTMR(grupa5);
 
 	double sum = a + b + c + d + e;
 
